@@ -31,3 +31,6 @@ How can we extract meaningful insights from calcium imaging data? In this hands-
 
 ## Certification
   - Students who attend at least 75% of the course will receive a participation certificate by email at the end of the course.
+
+
+https://www.sciencedirect.com/science/article/pii/S0959438818300977

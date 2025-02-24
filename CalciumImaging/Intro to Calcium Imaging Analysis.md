@@ -1,16 +1,17 @@
 # Calcium Imaging Analysis in Python
-  - **When**: April 7th-11th, 2025 @ 9:30 - 17:00 CET
+  - **When**: April 9th-11th, 2025 @ 9:30 - 17:00 CET
   - **Format**: Hands-On Workshop (>50% Small-Group Exercises)
   - **Length**: 18 Hours
   - **Location**: Online (Zoom link will be provided upon registration)
   - **Registration**: TBA
 
-How can we extract meaningful insights from calcium imaging data? In this hands-on workshop, students gain the skills needed to record and analyze calcium imaging data. Students will learn how to acquire raw experimental data using Bonsai-rx, a visual programming language to acquire data. Then, they learn common pre-processing to transform raw calcium imaging data into dF/F signals, whether they used fiber photometry, 1-photon (1p), or 2-photon (2p) imaging. They will also explore how to analyze processed data to understand neural activity and behavioral patterns`. 
+
+How do I extract calcium traces from images, and how do I analyze them? In this workshop, we cover the essential concepts needed to answer these questions using Python tools like NumPy, SciPy, and Napari. We will explore how to convert continuous calcium traces into neural spikes through deconvolution, extract fluorescence estimates both manually and automatically, and improve these estimates by removing contributions from the surrounding neuropil. Participants will work with real calcium imaging data to apply the above tools and methods.  
 
 ## Topics
-  - Acquiring raw data from setup: introduction to bonsai-rx 
-  - Calcium Imaging Data Processing: Pre-processing techniques for calcium imaging data obtained from fiber photometry, 1-photon, or 2-photon setup to get dF/F signals. 
-  - Calcium Imaging Data Analysis: Event detection, activity mapping, and other analyses. 
+  - Extracting flourescence estimates from image or image stack and converting them to neural spikes. 
+  - Manual and automated selection of Region(s) of Interest 
+  - Processing calcium image stacks with suite2p. 
 
 ## Prerequisites
 - **Affiliation**: Researchers and Students from all universities are welcome.  
@@ -21,7 +22,6 @@ How can we extract meaningful insights from calcium imaging data? In this hands-
 - **Software**: 
   - Windows, Mac, or Linux Computer
   - Zoom Desktop Client
-  - Bonsai-rx: https://bonsai-rx.org/docs/articles/installation.html
   - Visual Studio Code: https://code.visualstudio.com/download
   - Conda (recommended through installing Miniforge): https://conda-forge.org/download
   - Git: https://git-scm.com/downloads
@@ -31,6 +31,3 @@ How can we extract meaningful insights from calcium imaging data? In this hands-
 
 ## Certification
   - Students who attend at least 75% of the course will receive a participation certificate by email at the end of the course.
-
-
-https://www.sciencedirect.com/science/article/pii/S0959438818300977

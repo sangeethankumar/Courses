@@ -1,6 +1,6 @@
 # Introduction to Git and Version Control
 
-In this unit, we will learn about version control and its importance in software development. Version control helps track changes to files, manage collaboration, and maintain a history of modifications. It prevents data loss, enables teamwork, and makes debugging easier. We will also explore Git, a widely used distributed version control system that allows developers to manage code efficiently. This unit covers key Git concepts, including repositories, branches, commits, and merging, to help you get started with version control.
+In this unit, we will learn how to use Git for version control where we track changes, manage collaboration, and maintain a history of modifications. This unit covers essential Git commands for tracking changes, committing updates, and reverting to previous versions. It also includes instructions on using Git within VS Code for an easier workflow.
 
 ## Installation: Git
 

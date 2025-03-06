@@ -14,23 +14,23 @@ Git helps track changes in your project by monitoring file modifications. You ca
 | `git status`          | Show the status of changes in the working directory      | Click **Source Control (Ctrl + Shift + G)** → See the file changes |
 | `git add file1.txt`   | Stage `file1.txt` for commit                             | Click **➕ (plus) icon** next to the file in **Source Control** |
 | `git add .`          | Stage all modified and new files                         | Click **➕ (plus) icon** next to each file OR Click **"Stage All Changes"** |
-| `git reset file1.txt` | Unstage `file1.txt`                                      | Click **➖ (minus) icon** next to the file to move it back to "Changes" |
+| `git restore --staged file1.txt` | Unstage `file1.txt`                                      | Click **➖ (minus) icon** next to the file to move it back to "Changes" |
 
 **Exercises**  
 
-1. Initializing a Git repository
+1. Initializing a Git repository (Should be done only once in the beginning)
    1. Open a new folder for your project.  
    2. Initialize a Git repository in this folder.  
    3. Check the status of the repository using `git status`.  
 
-2. Tracking file changes
-   1. Create a new file called `experiment.txt` with some text, and check the status.  
+2. Tracking files and changes
+   1. Create file called `experiment.txt` with some text, and check the status.  
    2. Stage the file using `git add experiment.txt` and check the status.  
-   3. Add a new line to the file and check the status.
+   3. Edit `experiment.txt` and stage changes.
 
 3. Unstaging changes
    1. Stage a new file called `experiment_new.txt`.  
-   2. Unstage the file using `git reset experiment_new.txt` and check the status.
+   2. Unstage the file using `git restore --staged experiment_new.txt` and check the status.
 
 ---
 

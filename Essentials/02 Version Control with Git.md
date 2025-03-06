@@ -61,7 +61,7 @@ Once you have tracked your changes, you need to save them using a commit. A comm
 
 ## Section 3: Reverting to Older Versions  
 
-Git allows you to go back to a previous version of your work if needed. Instead of deleting changes manually, you can use Git to revert to an earlier commit. This section covers viewing commit history and reverting changes using Git.  
+Git allows you to go back to a previous version of your work if needed. Instead of deleting changes manually, you can use Git to revert to an earlier commit. This is where having descriptive commit messages can be useful in identifying which version you want to go back to. In this section, we cover viewing commit history and reverting changes using Git.  
 
 | Command                      | Description                                         | VS Code GUI |
 |------------------------------|-----------------------------------------------------|-------------|
@@ -71,22 +71,14 @@ Git allows you to go back to a previous version of your work if needed. Instead 
 
 ### **Exercises**  
 
-1. **Viewing commit history**  
-   1. Run `git log --oneline` to see a list of past commits.  
-   2. Copy the commit hash of a previous commit.  
-
-2. **Reverting the latest commit**  
+1. **Reverting the latest commit**  
    1. Modify `experiment.txt` again and commit the changes.  
    2. Use `git log --oneline` to view the commit history.  
    3. Revert the latest commit using `git revert HEAD`.  
    4. Check the status and commit history to confirm the revert.  
 
-3. **Reverting a specific commit**  
+2. **Reverting a specific commit**  
    1. Modify and commit changes to `experiment.txt` a few times.  
    2. Use `git log --oneline` to identify a specific commit to undo.  
    3. Use `git revert <commit-hash>` to undo only that commit.  
    4. Check the commit history again to verify the changes.  
-
----
-
-This structure provides clear, hands-on exercises for each section to reinforce learning. Let me know if you need any adjustments! 😊

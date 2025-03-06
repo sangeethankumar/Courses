@@ -44,15 +44,15 @@ Once you have tracked your changes, you need to save them using a commit. A comm
 | `git commit -am "Commit message"` | Stage and commit all modified files in one step    | NA (Files must be staged manually in VS Code before committing) |
 | `git log`                        | View commit history                                | NA |
 
-### **Exercises**  
+**Exercises**  
 
-1. **Committing changes**  
+1. Committing changes  
    1. Modify the `experiment.txt` file and add new text.  
    2. Check the status of the repository.  
    3. Stage and commit the changes with the message `"Updated experiment.txt with new data"`.  
    4. View the commit history using `git log`.  
 
-2. **Using the `-am` option**  
+2. Using the `-am` option  
    1. Modify the `experiment.txt` file again.  
    2. Use `git commit -am "Another update to experiment.txt"` to stage and commit in one step.  
    3. Check the commit history again.  
@@ -69,15 +69,15 @@ Git allows you to go back to a previous version of your work if needed. Instead 
 | `git log --oneline`          | Shows commit history in a short format             | NA |
 | `git revert <commit-hash>`   | Creates a new commit that undoes only the specified commit | NA |
 
-### **Exercises**  
+**Exercises**  
 
-1. **Reverting the latest commit**  
+1. Reverting the latest commit  
    1. Modify `experiment.txt` again and commit the changes.  
    2. Use `git log --oneline` to view the commit history.  
    3. Revert the latest commit using `git revert HEAD`.  
    4. Check the status and commit history to confirm the revert.  
 
-2. **Reverting a specific commit**  
+2. Reverting a specific commit  
    1. Modify and commit changes to `experiment.txt` a few times.  
    2. Use `git log --oneline` to identify a specific commit to undo.  
    3. Use `git revert <commit-hash>` to undo only that commit.  

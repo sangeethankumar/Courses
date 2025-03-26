@@ -10,7 +10,7 @@
   - **Registration**: TBA
 
 
-How do I extract calcium traces from images, and how do I analyze them? In this workshop, we cover the essential concepts needed to answer these questions using Python tools like NumPy, SciPy, and Napari. We will explore how to convert continuous calcium traces into neural spikes through deconvolution, extract fluorescence estimates both manually and automatically, and improve these estimates by removing contributions from the surrounding neuropil. Participants will work with real calcium imaging data to apply the above tools and methods.  
+How do I extract calcium traces from images, and how do I analyze them? In this workshop, we cover the essential concepts needed to answer these questions using Python tools like NumPy, SciPy, and Napari. We will explore how to convert continuous calcium traces into neural spikes through deconvolution, extract fluorescence estimates from Region(s) of Interest selected manually and automatically, and improve these estimates by removing contributions from the surrounding neuropil. Participants will work with real calcium imaging data to apply the above tools and methods.  
 
 #### Topics
   - Calcium Traces to Spikes: Extracting flourescence estimates from images and converting them to spikes through `numpy` and `scipy`. 

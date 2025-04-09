@@ -85,8 +85,8 @@ How do I extract calcium traces from images, and how do I analyze them? In this 
 ### Unit: Manual ROI Selection with Napari
 
   1. Napari GUI from the Notebook: Labeling Images
-     - Manual ROI Selection: Napari Labeling in Notebooks  
      - Napari Installation  
+     - Manual ROI Selection: Napari Labeling in Notebooks  
      - `napari.Viewer.view_image()`: Napari Image Layer  
      - `napari.Viewer.labels['labels']`: Napari Labels Layer  
 
